@@ -1,0 +1,12 @@
+@public @buseventtype create json schema
+HabitacionEvent as (eventTypeName String, cod_sala INT, temperatura DOUBLE, humedad DOUBLE, luz INT, num_empleados INT, fecha_ult_mant STRING, fecha_sistema STRING);
+
+@public @buseventtype create json schema
+ProductoEvent as (eventTypeName String, cod_producto INT, ubicacion STRING, stock_actual INT, stock_minimo INT);
+
+@public @buseventtype create json schema
+PuertaEvent as (eventTypeName String, cod_empleado INT, Nombre STRING, Apellidos STRING, Fecha STRING, Tipo STRING);
+
+@public @buseventtype create json schema
+OrdenadorEvent as (eventTypeName String, cod_ordenador INT, cod_sala INT, status STRING);
+

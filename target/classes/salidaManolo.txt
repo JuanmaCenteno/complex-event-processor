@@ -1,0 +1,874 @@
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=9, cod_sala=6, status=Averia}
+TIPO: OrdenadorEvent
+EVENTO: EventAlertaOrdenador [cod_ordenador=46, cod_sala=10, status=Averia]
+EVENTO: EventAlertaOrdenador [cod_ordenador=9, cod_sala=10, status=Averia]
+EVENTO: EventAlertaOrdenador [cod_ordenador=9, cod_sala=6, status=Averia]
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=9, cod_sala=3, status=Averia}
+EVENTO: EventAlertaOrdenador [cod_ordenador=9, cod_sala=3, status=Averia]
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=46, cod_sala=19, status=Averia}
+EVENTO: EventAlertaOrdenador [cod_ordenador=46, cod_sala=19, status=Averia]
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=18, cod_sala=9, status=Averia}
+EVENTO: EventAlertaOrdenador [cod_ordenador=18, cod_sala=9, status=Averia]
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=30, cod_sala=16, status=Averia}
+EVENTO: EventAlertaOrdenador [cod_ordenador=30, cod_sala=16, status=Averia]
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=34, cod_sala=1, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=22, cod_sala=10, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=37, cod_sala=12, status=Averia}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=8, cod_sala=9, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=38, cod_sala=0, status=Averia}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=22, cod_sala=4, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=38, cod_sala=16, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=23, cod_sala=0, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=9, cod_sala=4, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=35, cod_sala=10, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=44, cod_sala=15, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=31, cod_sala=1, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=43, cod_sala=9, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=31, cod_sala=17, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=45, cod_sala=17, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=27, cod_sala=3, status=Averia}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=9, cod_sala=6, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=37, cod_sala=2, status=Averia}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=18, cod_sala=14, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=18, cod_sala=17, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=42, cod_sala=9, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=32, cod_sala=9, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=21, cod_sala=4, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=28, cod_sala=8, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=8, cod_sala=14, status=Averia}
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: OrdenadorEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Garcia, fecha=09/10/2023 18:29:53, tipo=Entrada, empleado=41, nombre=Juan}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Guisado, fecha=14/10/2023 12:57:12, tipo=Entrada, empleado=44, nombre=Miguel}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=149, cod_producto=156, ubicacion=Almacen U, minimo=272}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gomez, fecha=16/10/2023 05:57:12, tipo=Salida, empleado=2, nombre=Fran}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=37, cod_sala=17, status=Averia}
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Puyol, fecha=15/10/2023 04:40:50, tipo=Salida, empleado=213, nombre=Antonio}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=288, cod_producto=261, ubicacion=Almacen H, minimo=396}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Salas, fecha=07/10/2023 08:36:43, tipo=Salida, empleado=18, nombre=Isabel}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=224, cod_producto=307, ubicacion=Almacen H, minimo=364}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Lopez, fecha=06/10/2023 01:31:21, tipo=Salida, empleado=127, nombre=Paco}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Guisado, fecha=13/11/2023 22:44:47, tipo=Salida, empleado=44, nombre=Rafa}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Iniesta, fecha=29/10/2023 16:36:18, tipo=Entrada, empleado=97, nombre=Antonio}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=318, cod_producto=260, ubicacion=Almacen O, minimo=480}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Sanchez, fecha=25/11/2023 15:24:48, tipo=Salida, empleado=34, nombre=Alberto}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Villa, fecha=06/11/2023 23:53:17, tipo=Entrada, empleado=116, nombre=Rafa}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=47, cod_sala=2, status=Averia}
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=227, cod_producto=331, ubicacion=Almacen F, minimo=428}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Ruiz, fecha=24/10/2023 17:24:02, tipo=Salida, empleado=200, nombre=Alberto}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=186, cod_producto=332, ubicacion=Almacen F, minimo=396}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Sanchez, fecha=17/10/2023 17:32:30, tipo=Salida, empleado=140, nombre=Ana}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gimenez, fecha=05/11/2023 15:56:00, tipo=Entrada, empleado=129, nombre=Marcos}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=327, cod_producto=190, ubicacion=Almacen T, minimo=328}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Villa, fecha=17/11/2023 12:23:57, tipo=Entrada, empleado=95, nombre=Ana}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gomez, fecha=20/11/2023 05:27:03, tipo=Salida, empleado=202, nombre=Marcos}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=160, cod_producto=126, ubicacion=Almacen R, minimo=232}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Cuevas, fecha=10/11/2023 04:50:55, tipo=Salida, empleado=224, nombre=Rafa}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Hernandez, fecha=28/11/2023 09:25:05, tipo=Entrada, empleado=61, nombre=Lucia}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gimenez, fecha=15/11/2023 08:58:59, tipo=Entrada, empleado=236, nombre=Paco}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Garcia, fecha=08/10/2023 20:48:27, tipo=Entrada, empleado=44, nombre=Alex}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: HabitacionEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gimenez, fecha=17/11/2023 12:17:36, tipo=Entrada, empleado=112, nombre=Alberto}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=27, cod_sala=14, status=Averia}
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gimenez, fecha=25/10/2023 01:58:29, tipo=Salida, empleado=145, nombre=Isabel}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=40, cod_sala=6, status=Averia}
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Jimenez, fecha=25/10/2023 13:05:40, tipo=Salida, empleado=62, nombre=Alberto}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Salas, fecha=22/11/2023 14:21:17, tipo=Salida, empleado=127, nombre=Maria}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Villa, fecha=02/12/2023 06:37:32, tipo=Entrada, empleado=51, nombre=Isabel}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=9, cod_sala=19, status=Averia}
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Lopez, fecha=14/11/2023 16:51:22, tipo=Salida, empleado=153, nombre=Isabel}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=38, cod_sala=12, status=Averia}
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Garcia, fecha=10/11/2023 10:35:30, tipo=Entrada, empleado=9, nombre=Maria}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Garcia, fecha=10/11/2023 02:02:56, tipo=Entrada, empleado=113, nombre=Fran}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=19, cod_producto=46, ubicacion=Almacen V, minimo=340}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Cuevas, fecha=14/10/2023 10:39:04, tipo=Entrada, empleado=215, nombre=Miguel}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Villa, fecha=03/12/2023 22:58:02, tipo=Salida, empleado=230, nombre=Paco}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Guisado, fecha=05/11/2023 23:58:05, tipo=Entrada, empleado=182, nombre=Paco}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=320, cod_producto=103, ubicacion=Almacen G, minimo=360}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gomez, fecha=06/11/2023 13:20:54, tipo=Salida, empleado=84, nombre=Alberto}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Villa, fecha=09/10/2023 02:28:35, tipo=Salida, empleado=132, nombre=Miguel}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: HabitacionEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Guisado, fecha=01/11/2023 21:21:15, tipo=Entrada, empleado=70, nombre=Antonio}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Cuevas, fecha=10/10/2023 11:19:13, tipo=Salida, empleado=153, nombre=Antonio}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=6, cod_sala=16, status=Averia}
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=26, cod_producto=31, ubicacion=Almacen U, minimo=300}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Villa, fecha=28/11/2023 20:34:03, tipo=Entrada, empleado=223, nombre=Alex}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=78, cod_producto=28, ubicacion=Almacen r, minimo=240}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Puyol, fecha=26/11/2023 00:35:02, tipo=Salida, empleado=133, nombre=Alex}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=374, cod_producto=113, ubicacion=Almacen L, minimo=480}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Jimenez, fecha=12/11/2023 00:51:53, tipo=Entrada, empleado=81, nombre=Isabel}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Iniesta, fecha=10/11/2023 00:29:38, tipo=Entrada, empleado=65, nombre=Ana}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Salas, fecha=17/10/2023 23:35:23, tipo=Salida, empleado=50, nombre=Ana}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=45, cod_sala=7, status=Averia}
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gimenez, fecha=07/10/2023 03:47:52, tipo=Salida, empleado=179, nombre=Ana}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=46, cod_producto=141, ubicacion=Almacen J, minimo=204}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Lopez, fecha=25/10/2023 04:36:57, tipo=Salida, empleado=110, nombre=Ana}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Hernandez, fecha=21/10/2023 22:15:03, tipo=Entrada, empleado=39, nombre=Fran}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gimenez, fecha=01/11/2023 17:15:39, tipo=Salida, empleado=182, nombre=Maria}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Cuevas, fecha=24/10/2023 07:59:45, tipo=Entrada, empleado=76, nombre=Juan}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: HabitacionEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Iniesta, fecha=14/10/2023 17:25:13, tipo=Entrada, empleado=40, nombre=Alberto}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=24, cod_producto=233, ubicacion=Almacen J, minimo=324}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Guisado, fecha=27/10/2023 01:09:09, tipo=Entrada, empleado=40, nombre=Alberto}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Villa, fecha=30/10/2023 17:09:43, tipo=Salida, empleado=96, nombre=Rafa}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=216, cod_producto=258, ubicacion=Almacen D, minimo=392}
+TIPO: HabitacionEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Hernandez, fecha=21/10/2023 21:40:36, tipo=Salida, empleado=191, nombre=Juan}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Iniesta, fecha=22/11/2023 16:46:04, tipo=Entrada, empleado=172, nombre=Fran}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:33, temp=31.0, tipo=Subida, emp2=38, emp1=29, cod_sala=17}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Hernandez, fecha=30/10/2023 05:18:28, tipo=Salida, empleado=11, nombre=Pepe}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=16, cod_producto=217, ubicacion=Almacen J, minimo=304}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Sanchez, fecha=18/10/2023 07:26:47, tipo=Entrada, empleado=66, nombre=Alberto}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=120, cod_producto=250, ubicacion=Almacen K, minimo=436}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Jimenez, fecha=15/11/2023 06:35:14, tipo=Entrada, empleado=99, nombre=Antonio}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=2, cod_sala=7, status=Averia}
+TIPO: ProductoEvent
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:33, temp=34.0, tipo=Subida, emp2=27, emp1=38, cod_sala=17}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Villa, fecha=06/10/2023 04:43:05, tipo=Entrada, empleado=68, nombre=Antonio}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gimenez, fecha=29/11/2023 12:16:34, tipo=Entrada, empleado=83, nombre=Fran}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Villa, fecha=18/10/2023 07:50:34, tipo=Salida, empleado=24, nombre=Fran}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Iniesta, fecha=15/11/2023 10:41:41, tipo=Salida, empleado=111, nombre=Juan}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Garcia, fecha=10/10/2023 14:51:09, tipo=Salida, empleado=246, nombre=Ana}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=41, cod_sala=18, status=Averia}
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Guisado, fecha=14/11/2023 20:21:12, tipo=Entrada, empleado=227, nombre=Maria}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Guisado, fecha=06/10/2023 19:11:28, tipo=Salida, empleado=190, nombre=Alberto}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=242, cod_producto=285, ubicacion=Almacen Z, minimo=400}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Lopez, fecha=18/10/2023 14:14:28, tipo=Salida, empleado=182, nombre=Alberto}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=115, cod_producto=103, ubicacion=Almacen S, minimo=392}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Jimenez, fecha=28/11/2023 05:50:57, tipo=Salida, empleado=193, nombre=Alex}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Cuevas, fecha=06/11/2023 01:26:21, tipo=Salida, empleado=80, nombre=Miguel}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Hernandez, fecha=06/10/2023 19:56:24, tipo=Entrada, empleado=221, nombre=Fran}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Hernandez, fecha=13/10/2023 15:53:40, tipo=Salida, empleado=122, nombre=Antonio}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gomez, fecha=17/11/2023 16:32:58, tipo=Entrada, empleado=229, nombre=Miguel}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=348, cod_producto=67, ubicacion=Almacen D, minimo=380}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Lopez, fecha=30/10/2023 07:32:59, tipo=Entrada, empleado=138, nombre=Lucia}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Hernandez, fecha=02/12/2023 02:09:29, tipo=Salida, empleado=166, nombre=Antonio}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=6, cod_sala=13, status=Averia}
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Guisado, fecha=22/11/2023 01:14:26, tipo=Salida, empleado=190, nombre=Rafa}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=21, cod_producto=192, ubicacion=Almacen O, minimo=344}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gimenez, fecha=01/11/2023 09:30:42, tipo=Entrada, empleado=20, nombre=Paco}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Cuevas, fecha=13/10/2023 03:31:31, tipo=Salida, empleado=174, nombre=Marcos}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Ramos, fecha=16/10/2023 13:51:43, tipo=Salida, empleado=169, nombre=Fran}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Ramos, fecha=10/11/2023 18:46:23, tipo=Entrada, empleado=237, nombre=Fran}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=230, cod_producto=342, ubicacion=Almacen I, minimo=388}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Sanchez, fecha=20/11/2023 11:07:54, tipo=Entrada, empleado=177, nombre=Juan}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Sanchez, fecha=15/11/2023 20:48:17, tipo=Salida, empleado=216, nombre=Lucia}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=190, cod_producto=117, ubicacion=Almacen W, minimo=216}
+TIPO: HabitacionEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Jimenez, fecha=10/11/2023 23:17:35, tipo=Entrada, empleado=248, nombre=Alberto}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=56, cod_producto=135, ubicacion=Almacen V, minimo=300}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Garcia, fecha=11/10/2023 16:58:58, tipo=Entrada, empleado=205, nombre=Marcos}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Ramos, fecha=08/10/2023 08:16:46, tipo=Entrada, empleado=206, nombre=Isabel}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Sanchez, fecha=01/11/2023 09:05:31, tipo=Entrada, empleado=124, nombre=Ana}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: HabitacionEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Puyol, fecha=14/11/2023 11:57:05, tipo=Entrada, empleado=150, nombre=Paco}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: HabitacionEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Salas, fecha=30/10/2023 21:18:46, tipo=Salida, empleado=220, nombre=Alberto}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Sanchez, fecha=06/10/2023 10:00:34, tipo=Salida, empleado=21, nombre=Alberto}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gimenez, fecha=13/10/2023 10:10:43, tipo=Entrada, empleado=76, nombre=Lucia}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=12, cod_sala=11, status=Averia}
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gimenez, fecha=31/10/2023 04:01:31, tipo=Entrada, empleado=156, nombre=Miguel}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Jimenez, fecha=04/12/2023 05:49:02, tipo=Entrada, empleado=211, nombre=Marcos}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=250, cod_producto=109, ubicacion=Almacen B, minimo=368}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Guisado, fecha=06/11/2023 17:11:16, tipo=Entrada, empleado=246, nombre=Pepe}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: HabitacionEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Garcia, fecha=29/11/2023 06:33:14, tipo=Entrada, empleado=53, nombre=Isabel}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: HabitacionEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Garcia, fecha=20/10/2023 02:01:25, tipo=Entrada, empleado=212, nombre=Marcos}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Sanchez, fecha=11/11/2023 04:43:12, tipo=Salida, empleado=43, nombre=Maria}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: HabitacionEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gomez, fecha=01/11/2023 17:25:56, tipo=Salida, empleado=172, nombre=Miguel}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=6, cod_sala=8, status=Averia}
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Jimenez, fecha=04/12/2023 09:03:07, tipo=Salida, empleado=239, nombre=Juan}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Salas, fecha=13/10/2023 01:26:25, tipo=Salida, empleado=66, nombre=Ana}
+TIPO: OrdenadorEvent
+** Complex event 'alertaOrdenador' detected: {cod_ordenador=21, cod_sala=13, status=Averia}
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=339, cod_producto=332, ubicacion=Almacen G, minimo=344}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:36, temp=-6.0, tipo=Subida, emp2=0, emp1=29, cod_sala=14}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Gimenez, fecha=07/10/2023 16:27:44, tipo=Entrada, empleado=58, nombre=Alberto}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Iniesta, fecha=21/11/2023 14:54:43, tipo=Salida, empleado=93, nombre=Ana}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=172, cod_producto=56, ubicacion=Almacen F, minimo=340}
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Ramos, fecha=14/11/2023 04:51:37, tipo=Salida, empleado=98, nombre=Maria}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+TIPO: PuertaEvent
+** Complex event 'alertaPuerta' detected: {apellidos=Ramos, fecha=13/10/2023 00:19:49, tipo=Salida, empleado=227, nombre=Pepe}
+TIPO: OrdenadorEvent
+TIPO: ProductoEvent
+** Complex event 'alertaProducto' detected: {actual=310, cod_producto=266, ubicacion=Almacen F, minimo=424}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:36, temp=16.0, tipo=Bajada, emp2=46, emp1=0, cod_sala=19}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:31, temp=19.5, tipo=Subida, emp2=31, emp1=33, cod_sala=12}
+TIPO: HabitacionEvent
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:29, temp=8.25, tipo=Subida, emp2=32, emp1=46, cod_sala=19}
+TIPO: HabitacionEvent
+TIPO: HabitacionEvent
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:30, temp=17.5, tipo=Subida, emp2=3, emp1=44, cod_sala=6}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:37, temp=17.5, tipo=Bajada, emp2=44, emp1=9, cod_sala=11}
+TIPO: HabitacionEvent
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:37, temp=20.75, tipo=Subida, emp2=16, emp1=17, cod_sala=18}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:30, temp=-9.25, tipo=Subida, emp2=18, emp1=17, cod_sala=5}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:35, temp=27.5, tipo=Subida, emp2=21, emp1=33, cod_sala=8}
+TIPO: HabitacionEvent
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:30, temp=5.25, tipo=Subida, emp2=24, emp1=27, cod_sala=9}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:30, temp=25.25, tipo=Subida, emp2=8, emp1=16, cod_sala=18}
+TIPO: HabitacionEvent
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:33, temp=36.5, tipo=Bajada, emp2=48, emp1=38, cod_sala=17}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:31, temp=33.0, tipo=Subida, emp2=47, emp1=44, cod_sala=4}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:37, temp=-1.75, tipo=Bajada, emp2=48, emp1=0, cod_sala=14}
+TIPO: HabitacionEvent
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:30, temp=6.0, tipo=Bajada, emp2=35, emp1=7, cod_sala=7}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:31, temp=32.75, tipo=Bajada, emp2=45, emp1=24, cod_sala=9}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:31, temp=-5.25, tipo=Subida, emp2=5, emp1=48, cod_sala=17}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:30, temp=9.5, tipo=Bajada, emp2=43, emp1=16, cod_sala=18}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:30, temp=-2.5, tipo=Subida, emp2=13, emp1=3, cod_sala=6}
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:30, temp=-2.5, tipo=Bajada, emp2=13, emp1=3, cod_sala=6}
+TIPO: HabitacionEvent
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:30, temp=-5.75, tipo=Subida, emp2=2, emp1=21, cod_sala=8}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:31, temp=27.5, tipo=Subida, emp2=23, emp1=35, cod_sala=7}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:35, temp=35.75, tipo=Bajada, emp2=48, emp1=33, cod_sala=8}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:31, temp=34.0, tipo=Subida, emp2=10, emp1=47, cod_sala=4}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:30, temp=25.0, tipo=Subida, emp2=7, emp1=41, cod_sala=3}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:31, temp=5.75, tipo=Subida, emp2=28, emp1=24, cod_sala=9}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:31, temp=29.25, tipo=Subida, emp2=17, emp1=8, cod_sala=18}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:32, temp=23.75, tipo=Bajada, emp2=44, emp1=28, cod_sala=16}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:32, temp=2.25, tipo=Subida, emp2=27, emp1=48, cod_sala=8}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:33, temp=39.25, tipo=Bajada, emp2=45, emp1=27, cod_sala=8}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:31, temp=-10.0, tipo=Subida, emp2=15, emp1=48, cod_sala=14}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:36, temp=8.25, tipo=Bajada, emp2=46, emp1=11, cod_sala=10}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:30, temp=-9.25, tipo=Subida, emp2=28, emp1=32, cod_sala=19}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:32, temp=38.25, tipo=Subida, emp2=33, emp1=37, cod_sala=2}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:29, temp=26.0, tipo=Subida, emp2=7, emp1=31, cod_sala=12}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:30, temp=13.25, tipo=Subida, emp2=0, emp1=7, cod_sala=7}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:33, temp=9.25, tipo=Bajada, emp2=32, emp1=15, cod_sala=14}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:33, temp=25.75, tipo=Subida, emp2=24, emp1=27, cod_sala=8}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:32, temp=-1.75, tipo=Bajada, emp2=31, emp1=5, cod_sala=17}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:32, temp=-5.0, tipo=Subida, emp2=6, emp1=13, cod_sala=6}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:36, temp=-4.5, tipo=Subida, emp2=14, emp1=11, cod_sala=10}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:32, temp=38.75, tipo=Subida, emp2=10, emp1=10, cod_sala=4}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:30, temp=-4.5, tipo=Subida, emp2=8, emp1=18, cod_sala=5}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:34, temp=-9.0, tipo=Bajada, emp2=47, emp1=6, cod_sala=6}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:34, temp=37.25, tipo=Bajada, emp2=41, emp1=24, cod_sala=8}
+TIPO: HabitacionEvent
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:33, temp=-4.75, tipo=Bajada, emp2=38, emp1=7, cod_sala=12}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:32, temp=15.5, tipo=Subida, emp2=11, emp1=28, cod_sala=9}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:34, temp=34.75, tipo=Subida, emp2=2, emp1=8, cod_sala=1}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:31, temp=32.0, tipo=Bajada, emp2=45, emp1=26, cod_sala=15}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:33, temp=-1.75, tipo=Bajada, emp2=47, emp1=0, cod_sala=7}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:34, temp=-9.75, tipo=Subida, emp2=41, emp1=47, cod_sala=6}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:33, temp=29.5, tipo=Subida, emp2=34, emp1=33, cod_sala=2}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:33, temp=22.0, tipo=Subida, emp2=6, emp1=17, cod_sala=18}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:33, temp=3.5, tipo=Bajada, emp2=39, emp1=17, cod_sala=18}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:32, temp=28.75, tipo=Subida, emp2=5, emp1=5, cod_sala=17}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:33, temp=34.25, tipo=Subida, emp2=10, emp1=0, cod_sala=7}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:35, temp=-1.0, tipo=Subida, emp2=30, emp1=34, cod_sala=2}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:36, temp=20.5, tipo=Bajada, emp2=37, emp1=10, cod_sala=7}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:36, temp=38.75, tipo=Subida, emp2=6, emp1=37, cod_sala=7}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:35, temp=-1.5, tipo=Bajada, emp2=15, emp1=2, cod_sala=1}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:36, temp=27.5, tipo=Bajada, emp2=48, emp1=37, cod_sala=7}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:35, temp=10.0, tipo=Subida, emp2=11, emp1=11, cod_sala=9}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:34, temp=12.0, tipo=Bajada, emp2=35, emp1=8, cod_sala=1}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:36, temp=20.5, tipo=Subida, emp2=7, emp1=48, cod_sala=7}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:32, temp=7.0, tipo=Subida, emp2=34, emp1=28, cod_sala=16}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:31, temp=-3.25, tipo=Subida, emp2=9, emp1=26, cod_sala=15}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:34, temp=6.0, tipo=Subida, emp2=20, emp1=32, cod_sala=14}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:30, temp=25.0, tipo=Bajada, emp2=35, emp1=17, cod_sala=5}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:32, temp=6.5, tipo=Subida, emp2=9, emp1=7, cod_sala=3}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:35, temp=-4.5, tipo=Bajada, emp2=25, emp1=5, cod_sala=17}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:34, temp=-9.25, tipo=Subida, emp2=17, emp1=10, cod_sala=4}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:36, temp=18.25, tipo=Bajada, emp2=49, emp1=34, cod_sala=16}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:31, temp=-6.75, tipo=Subida, emp2=31, emp1=22, cod_sala=13}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:37, temp=25.25, tipo=Bajada, emp2=34, emp1=20, cod_sala=14}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:37, temp=24.75, tipo=Subida, emp2=15, emp1=17, cod_sala=4}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:37, temp=35.5, tipo=Subida, emp2=31, emp1=34, cod_sala=14}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:35, temp=33.75, tipo=Subida, emp2=2, emp1=2, cod_sala=1}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:35, temp=28.5, tipo=Subida, emp2=6, emp1=6, cod_sala=18}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:24:36, temp=25.75, tipo=Subida, emp2=0, emp1=0, cod_sala=19}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:32, temp=37.75, tipo=Bajada, emp2=35, emp1=7, cod_sala=3}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:37, temp=16.75, tipo=Subida, emp2=34, emp1=31, cod_sala=13}
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:31, temp=16.75, tipo=Bajada, emp2=34, emp1=22, cod_sala=13}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:34, temp=-0.25, tipo=Bajada, emp2=41, emp1=14, cod_sala=10}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:37, temp=2.75, tipo=Subida, emp2=11, emp1=35, cod_sala=5}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:35, temp=3.0, tipo=Subida, emp2=15, emp1=38, cod_sala=12}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:36, temp=22.5, tipo=Subida, emp2=31, emp1=30, cod_sala=2}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:37, temp=23.0, tipo=Bajada, emp2=23, emp1=9, cod_sala=15}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:35, temp=27.75, tipo=Subida, emp2=10, emp1=5, cod_sala=17}
+TIPO: HabitacionEvent
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:32, temp=34.5, tipo=Subida, emp2=3, emp1=2, cod_sala=8}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:39, temp=6.75, tipo=Subida, emp2=7, emp1=3, cod_sala=8}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:38, temp=32.25, tipo=Subida, emp2=0, emp1=31, cod_sala=2}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:36, temp=-0.75, tipo=Bajada, emp2=47, emp1=7, cod_sala=7}
+TIPO: HabitacionEvent
+** Complex event 'alertaHabitacion' detected: {fecha=11/12/2023 23:26:38, temp=3.5, tipo=Subida, emp2=26, emp1=41, cod_sala=10}

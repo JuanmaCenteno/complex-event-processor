@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:scripting="http://www.mulesoft.org/schema/mule/scripting"
+	xmlns:dw="http://www.mulesoft.org/schema/mule/ee/dw" xmlns:json="http://www.mulesoft.org/schema/mule/json"
+	xmlns:jersey="http://www.mulesoft.org/schema/mule/jersey" xmlns:db="http://www.mulesoft.org/schema/mule/db"
+	xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:file="http://www.mulesoft.org/schema/mule/file"
+	xmlns:amqp="http://www.mulesoft.org/schema/mule/amqp" xmlns:vm="http://www.mulesoft.org/schema/mule/vm"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/scripting http://www.mulesoft.org/schema/mule/scripting/current/mule-scripting.xsd
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/amqp http://www.mulesoft.org/schema/mule/amqp/current/mule-amqp.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd
+http://www.mulesoft.org/schema/mule/vm http://www.mulesoft.org/schema/mule/vm/current/mule-vm.xsd
+http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/jersey http://www.mulesoft.org/schema/mule/jersey/current/mule-jersey.xsd
+http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/json/current/mule-json.xsd">
+	<amqp:connector name="AMQP_0_9_Connector"
+		validateConnections="true" doc:name="AMQP-0-9 Connector" />
+	<vm:endpoint exchange-pattern="one-way" path="ComplexEventConsumerPath"
+		name="ComplexEventConsumerGlobalVM" doc:name="VM" />
+	<db:mysql-config name="MySQL_Configuration" host="localhost"
+		port="3306" user="root" database="proyecto_isi" doc:name="MySQL Configuration" />
+	<http:listener-config name="HTTP_Listener_Configuration"
+		host="0.0.0.0" port="8081" doc:name="HTTP Listener Configuration" />
+	<http:request-config name="HTTP_Request_Configuration"
+		host="0.0.0.0" port="8081" doc:name="HTTP Request Configuration" />
+	<flow name="isiFlow">
+		<amqp:inbound-endpoint exchangeName="default"
+			queueName="Mensajes" responseTimeout="10000" exchange-pattern="request-response"
+			connector-ref="AMQP_0_9_Connector" doc:name="AMQP-0-9" />
+		<byte-array-to-string-transformer
+			doc:name="Byte Array to String" />
+		<logger message="Mensaje Recibido: #[payload]" level="INFO"
+			doc:name="Logger" />
+		<component class="esper.SendEventToEsperComponent" doc:name="Java" />
+	</flow>
+	<flow name="isiFlow1">
+		<file:inbound-endpoint
+			path="C:\Users\Juanma\Desktop\UCA\ISI\PracticasAnypoint\isi\src\main\resources\PatronesSinProcesar"
+			moveToDirectory="C:\Users\Juanma\Desktop\UCA\ISI\PracticasAnypoint\isi\src\main\resources\PatronesProcesados"
+			responseTimeout="10000" doc:name="File" />
+		<file:file-to-string-transformer
+			doc:name="File to String" />
+		<component class="esper.AddEventPatternToEsperComponent"
+			doc:name="Java" />
+	</flow>
+	<flow name="isiFlow2">
+		<vm:inbound-endpoint exchange-pattern="one-way"
+			path="ComplexEventConsumerPath" doc:name="ComplexEventConsumer" />
+		<scatter-gather doc:name="Scatter-Gather">
+			<processor-chain>
+				<object-to-string-transformer doc:name="Object to String" />
+				<string-to-byte-array-transformer
+					doc:name="String to Byte Array" />
+				<amqp:outbound-endpoint exchangeName="outputMule"
+					queueName="OutputMessages" responseTimeout="10000"
+					exchange-pattern="request-response" doc:name="AMQP-0-9" />
+			</processor-chain>
+			<processor-chain>
+				<set-variable variableName="shouldStopFlow" value="false"
+					doc:name="Cambio BD/API REST" />
+				<choice doc:name="Choice">
+					<when expression="#[flowVars.shouldStopFlow]">
+						<logger message="Flujo detenido" level="INFO" doc:name="Logger" />
+						<json:object-to-json-transformer
+							doc:name="Object to JSON" />
+						<http:request config-ref="HTTP_Request_Configuration"
+	path="/ComplexEventsReport/addEvent" method="POST" doc:name="HTTP" />
+					</when>
+					<otherwise>
+						<set-payload value="#[payload]" doc:name="Set Payload" />
+						<logger message="MANOLO: #[payload]" level="INFO" doc:name="Logger" />
+						<choice doc:name="Choice">
+							<when expression="#[payload.alertaHabitacion != null]">
+								<logger message="ENTRO: #[payload]" level="INFO"
+									doc:name="Logger" />
+								<db:insert config-ref="MySQL_Configuration" doc:name="DB_Habitacion">
+									<db:parameterized-query><![CDATA[
+						        INSERT INTO alertahabitacion (cod_sala, emp1, emp2, temp, tipo, fecha) 
+						        VALUES (:cod_sala, :emp1, :emp2, :temp, :tipo, :fecha)
+						    ]]></db:parameterized-query>
+									<db:in-param name="cod_sala"
+										value="#[payload.alertaHabitacion.cod_sala]" />
+									<db:in-param name="emp1"
+										value="#[payload.alertaHabitacion.emp1]" />
+									<db:in-param name="emp2"
+										value="#[payload.alertaHabitacion.emp2]" />
+									<db:in-param name="temp"
+										value="#[payload.alertaHabitacion.temp]" />
+									<db:in-param name="tipo"
+										value="#[payload.alertaHabitacion.tipo]" />
+									<db:in-param name="fecha"
+										value="#[payload.alertaHabitacion.fecha]" />
+								</db:insert>
+							</when>
+							<when expression="#[payload.alertaPuerta != null]">
+								<logger message="PUERTAAA: [#[payload]" level="INFO"
+									doc:name="Logger" />
+								<db:insert config-ref="MySQL_Configuration" doc:name="DP_Puerta">
+									<db:parameterized-query><![CDATA[
+						        INSERT INTO alertapuerta (empleado, nombre, apellidos, fecha, tipo) 
+						        VALUES (:empleado, :nombre, :apellidos, :fecha, :tipo)
+						    ]]></db:parameterized-query>
+									<db:in-param name="empleado"
+										value="#[payload.alertaPuerta.empleado]" />
+									<db:in-param name="nombre" value="#[payload.alertaPuerta.nombre]" />
+									<db:in-param name="apellidos"
+										value="#[payload.alertaPuerta.apellidos]" />
+									<db:in-param name="fecha" value="#[payload.alertaPuerta.fecha]" />
+									<db:in-param name="tipo" value="#[payload.alertaPuerta.tipo]" />
+								</db:insert>
+							</when>
+							<when expression="#[payload.alertaOrdenador != null]">
+								<db:insert config-ref="MySQL_Configuration" doc:name="DB_Ordenador">
+									<db:parameterized-query><![CDATA[INSERT INTO alertaordenador (cod_ordenador, cod_sala, status) 
+						        VALUES (:cod_ordenador, :cod_sala, :status)]]></db:parameterized-query>
+									<db:in-param name="cod_ordenador"
+										value="#[payload.alertaOrdenador.cod_ordenador]" />
+									<db:in-param name="cod_sala"
+										value="#[payload.alertaOrdenador.cod_sala]" />
+									<db:in-param name="status"
+										value="#[payload.alertaOrdenador.status]" />
+								</db:insert>
+							</when>
+							<when expression="#[payload.alertaProducto != null]">
+								<db:insert config-ref="MySQL_Configuration" doc:name="DB_Producto">
+									<db:parameterized-query><![CDATA[INSERT INTO alertaproducto (cod_producto, ubicacion, actual, minimo) 
+						        VALUES (:cod_producto, :ubicacion, :actual, :minimo)]]></db:parameterized-query>
+									<db:in-param name="cod_producto"
+										value="#[payload.alertaProducto.cod_producto]" />
+									<db:in-param name="ubicacion"
+										value="#[payload.alertaProducto.ubicacion]" />
+									<db:in-param name="actual"
+										value="#[payload.alertaProducto.actual]" />
+									<db:in-param name="minimo"
+										value="#[payload.alertaProducto.minimo]" />
+								</db:insert>
+							</when>
+							<otherwise>
+								<logger message="NO VA JEFE" level="INFO" doc:name="Logger" />
+							</otherwise>
+						</choice>
+					</otherwise>
+				</choice>
+			</processor-chain>
+		</scatter-gather>
+	</flow>
+	<flow name="API_REST">
+		<http:listener config-ref="HTTP_Listener_Configuration"
+			path="/*" doc:name="HTTP" />
+		<jersey:resources doc:name="REST">
+			<component class="rest_isi.ComplexEventsReport" />
+		</jersey:resources>
+	</flow>
+</mule>

@@ -1,0 +1,5 @@
+insert into alertaProducto
+SELECT p1.cod_producto as cod_producto, p1.ubicacion as ubicacion, p1.stock_actual as actual, p1.stock_minimo as minimo
+FROM PATTERN [every p1=ProductoEvent(p1.stock_actual < p1.stock_minimo)];
+
+SELECT * FROM alertaProducto;

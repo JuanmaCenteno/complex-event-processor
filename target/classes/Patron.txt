@@ -1,0 +1,49 @@
+SELECT * FROM HabitacionEvent
+WHERE temperatura > 20;
+
+insert into alertaHabitacion
+SELECT h1.cod_sala as cod_sala, h1.num_empleados as emp1, h2.num_empleados as emp2, h2.temperatura as temp, 'Bajada' as tipo, h1.fecha_sistema as fecha
+FROM PATTERN [every h1=HabitacionEvent -> h2=HabitacionEvent((h2.num_empleados - h1.num_empleados) >= 10 AND h1.cod_sala = h2.cod_sala) where timer:within (5 minutes)];
+
+insert into alertaHabtiacion
+SELECT h1.cod_sala as cod_sala, h1.num_empleados as emp1, h2.num_empleados as emp2, h2.temperatura as temp, 'Subida' as tipo, h1.fecha_sistema as fecha
+FROM PATTERN [every h1=HabitacionEvent -> h2=HabitacionEvent((h2.num_empleados - h1.num_empleados) <= 10 AND h1.cod_sala = h2.cod_sala) where timer:within (5 minutes)];
+
+SELECT cod_sala, temp, tipo FROM alertaHabitacion;
+
+-----------------------------------------------------------------------------------------------------------------------
+
+SELECT * FROM PuertaEvent
+WHERE Tipo = 'Entrada';
+
+SELECT * FROM PuertaEvent
+WHERE Tipo = 'Salida';
+
+insert into alertaPuerta
+SELECT pu1.cod_empleado as empleado, pu1.Nombre as nombre, pu1.Apellidos as apellidos, pu1.Fecha as fecha, pu1.Tipo as tipo
+FROM PATTERN [every pu1=PuertaEvent];
+
+SELECT * FROM alertaPuerta;
+
+-----------------------------------------------------------------------------------------------------------------------
+
+SELECT * FROM OrdenadorEvent
+WHERE status = 'Averia';
+
+insert into alertaOrdenador
+SELECT o1.cod_ordenador as cod_ordenador, o1.cod_sala as cod_sala, o1.status as status
+FROM PATTERN [every o1=OrdenadorEvent(o1.status = 'Averia')];
+
+SELECT * FROM alertaOrdenador;
+
+-----------------------------------------------------------------------------------------------------------------------
+
+insert into alertaProducto
+SELECT p1.cod_producto as cod_producto, p1.ubicacion as ubicacion, p1.stock_actual as actual, p1.stock_minimo as minimo
+FROM PATTERN [every p1=ProductoEvent(p1.stock_actual < p1.stock_minimo)];
+
+SELECT * FROM alertaProducto;
+
+
+
+-----------------------------------------------------------------------------------------------------------------------

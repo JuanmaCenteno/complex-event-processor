@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MainGlobalCls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LstRepeaterKey />
+  <LstRepeaterValue />
+  <Config>
+    <RepeatMode>eBySystemClock</RepeatMode>
+    <MsPerSignal>100</MsPerSignal>
+    <TicksPerSignal>1</TicksPerSignal>
+    <MustSignalForGD>false</MustSignalForGD>
+    <SignalsForNewGD>0</SignalsForNewGD>
+    <NotStop>false</NotStop>
+    <StopInXTicks>false</StopInXTicks>
+    <StopInXSeconds>true</StopInXSeconds>
+    <TicksForStop>10000</TicksForStop>
+    <SecondsForStop>10</SecondsForStop>
+    <RefreshInf>true</RefreshInf>
+    <RefreshInfTicks>1</RefreshInfTicks>
+    <RefreshInfDatas>true</RefreshInfDatas>
+  </Config>
+  <LstGlobalAtoms>
+    <BaseAtomClss xsi:type="AtomRndNumCls">
+      <Identificator>Numero</Identificator>
+      <KindOfAtom>rdGlobal</KindOfAtom>
+      <TypeOfAtom>eAtomNumber</TypeOfAtom>
+      <AnomalyAllow>false</AnomalyAllow>
+      <AnomalyFrom>1</AnomalyFrom>
+      <AnomalyTo>1</AnomalyTo>
+      <AnomalyType>eMakeAndBack</AnomalyType>
+      <AnomalyTypeKeepTime_From>1</AnomalyTypeKeepTime_From>
+      <AnomalyTypeKeepTime_To>1</AnomalyTypeKeepTime_To>
+      <Min>0</Min>
+      <Max>100</Max>
+      <Start>50</Start>
+      <Steps>100</Steps>
+      <StrFormat />
+      <StrCulture />
+      <WayOfWork>Random</WayOfWork>
+      <Tendencia>false</Tendencia>
+      <TypeOfRock>eAtomNumber</TypeOfRock>
+      <AllowTendenceSteps>false</AllowTendenceSteps>
+      <NumStepsOfTendenceFrom>1</NumStepsOfTendenceFrom>
+      <NumStepsOfTendenceTo>1</NumStepsOfTendenceTo>
+      <AllowBreakTendence>false</AllowBreakTendence>
+      <BreakTendenceProbability>0</BreakTendenceProbability>
+      <KindOfMode>Normal</KindOfMode>
+      <KindOfTend>Progresive</KindOfTend>
+      <Distorsion>0</Distorsion>
+      <LstRanges>
+        <RangesClss>
+          <ToMinus>0</ToMinus>
+          <ToMaximun>0</ToMaximun>
+          <Value>0</Value>
+          <ToIn>0</ToIn>
+        </RangesClss>
+        <RangesClss>
+          <ToMinus>0</ToMinus>
+          <ToMaximun>0</ToMaximun>
+          <Value>100</Value>
+          <ToIn>0</ToIn>
+        </RangesClss>
+      </LstRanges>
+      <AscendentSecRound>true</AscendentSecRound>
+      <StepForSecRound>1</StepForSecRound>
+      <BreakSecuencial>false</BreakSecuencial>
+      <ProbabilitySecuencial>0</ProbabilitySecuencial>
+      <GoBackSec>true</GoBackSec>
+      <KndConstant>Random</KndConstant>
+      <ConstantValue>0</ConstantValue>
+      <FunctionAssigned />
+      <AnomalyUseRandom>true</AnomalyUseRandom>
+      <AnomalyUseTrends>false</AnomalyUseTrends>
+      <AnomalyUseConstant>false</AnomalyUseConstant>
+      <AnomalyUseSequencial>false</AnomalyUseSequencial>
+      <AnomalyUseFunction>false</AnomalyUseFunction>
+    </BaseAtomClss>
+    <BaseAtomClss xsi:type="AtomRndDateAndTimeCls">
+      <Identificator>Fecha</Identificator>
+      <KindOfAtom>rdGlobal</KindOfAtom>
+      <TypeOfAtom>eAtomDates</TypeOfAtom>
+      <AnomalyAllow>false</AnomalyAllow>
+      <AnomalyFrom>1</AnomalyFrom>
+      <AnomalyTo>1</AnomalyTo>
+      <AnomalyType>eMakeAndBack</AnomalyType>
+      <AnomalyTypeKeepTime_From>1</AnomalyTypeKeepTime_From>
+      <AnomalyTypeKeepTime_To>1</AnomalyTypeKeepTime_To>
+      <DateTimeFormat>dd/MM/yyyy HH:mm:ss</DateTimeFormat>
+      <GapFormat>hh\:mm\:ss</GapFormat>
+      <Epoch>true</Epoch>
+      <IsFix>true</IsFix>
+      <IsNowInFix>true</IsNowInFix>
+      <DateTimeInFix>2023-11-23T12:19:23.7688917+01:00</DateTimeInFix>
+      <IsIncrement>false</IsIncrement>
+      <IsNowInIncrement>false</IsNowInIncrement>
+      <IsDecrementInIncrement>false</IsDecrementInIncrement>
+      <DateTimeInIncremente>2023-11-23T12:19:23.7689281+01:00</DateTimeInIncremente>
+      <IsBetweenDateTime>false</IsBetweenDateTime>
+      <IsNowInBetweenFrom>false</IsNowInBetweenFrom>
+      <DateTimeInBetweenFrom>2023-11-23T12:19:23.7689282+01:00</DateTimeInBetweenFrom>
+      <IsNowInBetweenTo>false</IsNowInBetweenTo>
+      <DateTimeInBetweenTo>2023-11-23T12:19:23.7689284+01:00</DateTimeInBetweenTo>
+      <IsBetweenGap>false</IsBetweenGap>
+      <TimeSpanFrom>1</TimeSpanFrom>
+      <TimeSpanTo>10</TimeSpanTo>
+      <TypeOfGap>seconds</TypeOfGap>
+    </BaseAtomClss>
+  </LstGlobalAtoms>
+  <LstMainGroups>
+    <MainGroupCls>
+      <LstGroupAtoms />
+      <LstOfLocals>
+        <MainLocalCls>
+          <Patron>
+            <Patron>{
+"eventTypeName":"HabitacionEvent",
+"cod_sala":  $#Rd.LO.Num#$,
+"temperatura": $#Rd.LO.Temp#$,
+"humedad": $#Rd.LO.Humedad#$ ,
+"luz": $#Rd.LO.Luz#$ ,
+"num_empleados": $#Rd.LO.Num#$ ,
+"fecha_ult_mant": "$#Rd.LO.Dat#$",
+"fecha_sistema":"$#Rd.LO.Dat#$" 
+}
+</Patron>
+          </Patron>
+          <Name>Connector 1</Name>
+          <Connector xsi:type="ConnRabbitMQ">
+            <ConnectionParam xsi:type="ConnRabbitMQ_Param">
+              <AsyncMode>false</AsyncMode>
+              <KeepConnected>false</KeepConnected>
+              <KndOfConnector>RabbitMQ</KndOfConnector>
+              <Host>
+                <Patron>localhost</Patron>
+              </Host>
+              <Queue>
+                <Patron>Mensajes</Patron>
+              </Queue>
+              <User>
+                <Patron>guest</Patron>
+              </User>
+              <Password>
+                <Patron>guest</Patron>
+              </Password>
+              <Exchange>
+                <Patron />
+              </Exchange>
+              <RoutingKey>
+                <Patron>Mensajes</Patron>
+              </RoutingKey>
+              <Port>5672</Port>
+              <Durable>true</Durable>
+              <Exclusive>false</Exclusive>
+              <Autodelete>false</Autodelete>
+            </ConnectionParam>
+            <MustRun>true</MustRun>
+          </Connector>
+          <LstLocalAtoms>
+            <BaseAtomClss xsi:type="AtomRndNumCls">
+              <Identificator>Num</Identificator>
+              <KindOfAtom>rdLocal</KindOfAtom>
+              <TypeOfAtom>eAtomNumber</TypeOfAtom>
+              <AnomalyAllow>false</AnomalyAllow>
+              <AnomalyFrom>1</AnomalyFrom>
+              <AnomalyTo>1</AnomalyTo>
+              <AnomalyType>eMakeAndBack</AnomalyType>
+              <AnomalyTypeKeepTime_From>1</AnomalyTypeKeepTime_From>
+              <AnomalyTypeKeepTime_To>1</AnomalyTypeKeepTime_To>
+              <Min>0</Min>
+              <Max>50</Max>
+              <Start>50</Start>
+              <Steps>50</Steps>
+              <StrFormat />
+              <StrCulture />
+              <WayOfWork>Random</WayOfWork>
+              <Tendencia>false</Tendencia>
+              <TypeOfRock>eAtomNumber</TypeOfRock>
+              <AllowTendenceSteps>false</AllowTendenceSteps>
+              <NumStepsOfTendenceFrom>1</NumStepsOfTendenceFrom>
+              <NumStepsOfTendenceTo>1</NumStepsOfTendenceTo>
+              <AllowBreakTendence>false</AllowBreakTendence>
+              <BreakTendenceProbability>0</BreakTendenceProbability>
+              <KindOfMode>Normal</KindOfMode>
+              <KindOfTend>Progresive</KindOfTend>
+              <Distorsion>0</Distorsion>
+              <LstRanges>
+                <RangesClss>
+                  <ToMinus>0</ToMinus>
+                  <ToMaximun>0</ToMaximun>
+                  <Value>0</Value>
+                  <ToIn>0</ToIn>
+                </RangesClss>
+                <RangesClss>
+                  <ToMinus>0</ToMinus>
+                  <ToMaximun>0</ToMaximun>
+                  <Value>50</Value>
+                  <ToIn>0</ToIn>
+                </RangesClss>
+              </LstRanges>
+              <AscendentSecRound>true</AscendentSecRound>
+              <StepForSecRound>1</StepForSecRound>
+              <BreakSecuencial>false</BreakSecuencial>
+              <ProbabilitySecuencial>0</ProbabilitySecuencial>
+              <GoBackSec>true</GoBackSec>
+              <KndConstant>Random</KndConstant>
+              <ConstantValue>0</ConstantValue>
+              <FunctionAssigned />
+              <AnomalyUseRandom>true</AnomalyUseRandom>
+              <AnomalyUseTrends>false</AnomalyUseTrends>
+              <AnomalyUseConstant>false</AnomalyUseConstant>
+              <AnomalyUseSequencial>false</AnomalyUseSequencial>
+              <AnomalyUseFunction>false</AnomalyUseFunction>
+            </BaseAtomClss>
+            <BaseAtomClss xsi:type="AtomRndDateAndTimeCls">
+              <Identificator>Dat</Identificator>
+              <KindOfAtom>rdLocal</KindOfAtom>
+              <TypeOfAtom>eAtomDates</TypeOfAtom>
+              <AnomalyAllow>false</AnomalyAllow>
+              <AnomalyFrom>1</AnomalyFrom>
+              <AnomalyTo>1</AnomalyTo>
+              <AnomalyType>eMakeAndBack</AnomalyType>
+              <AnomalyTypeKeepTime_From>1</AnomalyTypeKeepTime_From>
+              <AnomalyTypeKeepTime_To>1</AnomalyTypeKeepTime_To>
+              <DateTimeFormat>dd/MM/yyyy HH:mm:ss</DateTimeFormat>
+              <GapFormat>hh\:mm\:ss</GapFormat>
+              <Epoch>true</Epoch>
+              <IsFix>true</IsFix>
+              <IsNowInFix>true</IsNowInFix>
+              <DateTimeInFix>2023-11-15T09:43:14.9766054+01:00</DateTimeInFix>
+              <IsIncrement>false</IsIncrement>
+              <IsNowInIncrement>false</IsNowInIncrement>
+              <IsDecrementInIncrement>false</IsDecrementInIncrement>
+              <DateTimeInIncremente>2023-11-15T09:43:14.9766133+01:00</DateTimeInIncremente>
+              <IsBetweenDateTime>false</IsBetweenDateTime>
+              <IsNowInBetweenFrom>false</IsNowInBetweenFrom>
+              <DateTimeInBetweenFrom>2023-11-15T09:43:14.9766136+01:00</DateTimeInBetweenFrom>
+              <IsNowInBetweenTo>false</IsNowInBetweenTo>
+              <DateTimeInBetweenTo>2023-11-15T09:43:14.9766138+01:00</DateTimeInBetweenTo>
+              <IsBetweenGap>false</IsBetweenGap>
+              <TimeSpanFrom>1</TimeSpanFrom>
+              <TimeSpanTo>10</TimeSpanTo>
+              <TypeOfGap>seconds</TypeOfGap>
+            </BaseAtomClss>
+            <BaseAtomClss xsi:type="AtomRndNumCls">
+              <Identificator>Temp</Identificator>
+              <KindOfAtom>rdLocal</KindOfAtom>
+              <TypeOfAtom>eAtomNumber</TypeOfAtom>
+              <AnomalyAllow>false</AnomalyAllow>
+              <AnomalyFrom>1</AnomalyFrom>
+              <AnomalyTo>1</AnomalyTo>
+              <AnomalyType>eMakeAndBack</AnomalyType>
+              <AnomalyTypeKeepTime_From>1</AnomalyTypeKeepTime_From>
+              <AnomalyTypeKeepTime_To>1</AnomalyTypeKeepTime_To>
+              <Min>-10</Min>
+              <Max>40</Max>
+              <Start>50</Start>
+              <Steps>200</Steps>
+              <StrFormat />
+              <StrCulture />
+              <WayOfWork>Random</WayOfWork>
+              <Tendencia>false</Tendencia>
+              <TypeOfRock>eAtomNumber</TypeOfRock>
+              <AllowTendenceSteps>false</AllowTendenceSteps>
+              <NumStepsOfTendenceFrom>1</NumStepsOfTendenceFrom>
+              <NumStepsOfTendenceTo>1</NumStepsOfTendenceTo>
+              <AllowBreakTendence>false</AllowBreakTendence>
+              <BreakTendenceProbability>0</BreakTendenceProbability>
+              <KindOfMode>Normal</KindOfMode>
+              <KindOfTend>Progresive</KindOfTend>
+              <Distorsion>0</Distorsion>
+              <LstRanges>
+                <RangesClss>
+                  <ToMinus>0</ToMinus>
+                  <ToMaximun>0</ToMaximun>
+                  <Value>-10</Value>
+                  <ToIn>0</ToIn>
+                </RangesClss>
+                <RangesClss>
+                  <ToMinus>0</ToMinus>
+                  <ToMaximun>0</ToMaximun>
+                  <Value>40</Value>
+                  <ToIn>0</ToIn>
+                </RangesClss>
+              </LstRanges>
+              <AscendentSecRound>true</AscendentSecRound>
+              <StepForSecRound>1</StepForSecRound>
+              <BreakSecuencial>false</BreakSecuencial>
+              <ProbabilitySecuencial>0</ProbabilitySecuencial>
+              <GoBackSec>true</GoBackSec>
+              <KndConstant>Random</KndConstant>
+              <ConstantValue>0</ConstantValue>
+              <FunctionAssigned />
+              <AnomalyUseRandom>true</AnomalyUseRandom>
+              <AnomalyUseTrends>false</AnomalyUseTrends>
+              <AnomalyUseConstant>false</AnomalyUseConstant>
+              <AnomalyUseSequencial>false</AnomalyUseSequencial>
+              <AnomalyUseFunction>false</AnomalyUseFunction>
+            </BaseAtomClss>
+            <BaseAtomClss xsi:type="AtomRndNumCls">
+              <Identificator>Humedad</Identificator>
+              <KindOfAtom>rdLocal</KindOfAtom>
+              <TypeOfAtom>eAtomNumber</TypeOfAtom>
+              <AnomalyAllow>false</AnomalyAllow>
+              <AnomalyFrom>1</AnomalyFrom>
+              <AnomalyTo>1</AnomalyTo>
+              <AnomalyType>eMakeAndBack</AnomalyType>
+              <AnomalyTypeKeepTime_From>1</AnomalyTypeKeepTime_From>
+              <AnomalyTypeKeepTime_To>1</AnomalyTypeKeepTime_To>
+              <Min>0</Min>
+              <Max>100</Max>
+              <Start>50</Start>
+              <Steps>200</Steps>
+              <StrFormat />
+              <StrCulture />
+              <WayOfWork>Random</WayOfWork>
+              <Tendencia>false</Tendencia>
+              <TypeOfRock>eAtomNumber</TypeOfRock>
+              <AllowTendenceSteps>false</AllowTendenceSteps>
+              <NumStepsOfTendenceFrom>1</NumStepsOfTendenceFrom>
+              <NumStepsOfTendenceTo>1</NumStepsOfTendenceTo>
+              <AllowBreakTendence>false</AllowBreakTendence>
+              <BreakTendenceProbability>0</BreakTendenceProbability>
+              <KindOfMode>Normal</KindOfMode>
+              <KindOfTend>Progresive</KindOfTend>
+              <Distorsion>0</Distorsion>
+              <LstRanges>
+                <RangesClss>
+                  <ToMinus>0</ToMinus>
+                  <ToMaximun>0</ToMaximun>
+                  <Value>0</Value>
+                  <ToIn>0</ToIn>
+                </RangesClss>
+                <RangesClss>
+                  <ToMinus>0</ToMinus>
+                  <ToMaximun>0</ToMaximun>
+                  <Value>100</Value>
+                  <ToIn>0</ToIn>
+                </RangesClss>
+              </LstRanges>
+              <AscendentSecRound>true</AscendentSecRound>
+              <StepForSecRound>1</StepForSecRound>
+              <BreakSecuencial>false</BreakSecuencial>
+              <ProbabilitySecuencial>0</ProbabilitySecuencial>
+              <GoBackSec>true</GoBackSec>
+              <KndConstant>Random</KndConstant>
+              <ConstantValue>0</ConstantValue>
+              <FunctionAssigned />
+              <AnomalyUseRandom>true</AnomalyUseRandom>
+              <AnomalyUseTrends>false</AnomalyUseTrends>
+              <AnomalyUseConstant>false</AnomalyUseConstant>
+              <AnomalyUseSequencial>false</AnomalyUseSequencial>
+              <AnomalyUseFunction>false</AnomalyUseFunction>
+            </BaseAtomClss>
+            <BaseAtomClss xsi:type="AtomRndNumCls">
+              <Identificator>Luz</Identificator>
+              <KindOfAtom>rdLocal</KindOfAtom>
+              <TypeOfAtom>eAtomNumber</TypeOfAtom>
+              <AnomalyAllow>false</AnomalyAllow>
+              <AnomalyFrom>1</AnomalyFrom>
+              <AnomalyTo>1</AnomalyTo>
+              <AnomalyType>eMakeAndBack</AnomalyType>
+              <AnomalyTypeKeepTime_From>1</AnomalyTypeKeepTime_From>
+              <AnomalyTypeKeepTime_To>1</AnomalyTypeKeepTime_To>
+              <Min>400</Min>
+              <Max>800</Max>
+              <Start>50</Start>
+              <Steps>100</Steps>
+              <StrFormat />
+              <StrCulture />
+              <WayOfWork>Random</WayOfWork>
+              <Tendencia>false</Tendencia>
+              <TypeOfRock>eAtomNumber</TypeOfRock>
+              <AllowTendenceSteps>false</AllowTendenceSteps>
+              <NumStepsOfTendenceFrom>1</NumStepsOfTendenceFrom>
+              <NumStepsOfTendenceTo>1</NumStepsOfTendenceTo>
+              <AllowBreakTendence>false</AllowBreakTendence>
+              <BreakTendenceProbability>0</BreakTendenceProbability>
+              <KindOfMode>Normal</KindOfMode>
+              <KindOfTend>Progresive</KindOfTend>
+              <Distorsion>0</Distorsion>
+              <LstRanges>
+                <RangesClss>
+                  <ToMinus>0</ToMinus>
+                  <ToMaximun>0</ToMaximun>
+                  <Value>400</Value>
+                  <ToIn>0</ToIn>
+                </RangesClss>
+                <RangesClss>
+                  <ToMinus>0</ToMinus>
+                  <ToMaximun>0</ToMaximun>
+                  <Value>800</Value>
+                  <ToIn>0</ToIn>
+                </RangesClss>
+              </LstRanges>
+              <AscendentSecRound>true</AscendentSecRound>
+              <StepForSecRound>1</StepForSecRound>
+              <BreakSecuencial>false</BreakSecuencial>
+              <ProbabilitySecuencial>0</ProbabilitySecuencial>
+              <GoBackSec>true</GoBackSec>
+              <KndConstant>Random</KndConstant>
+              <ConstantValue>0</ConstantValue>
+              <FunctionAssigned />
+              <AnomalyUseRandom>true</AnomalyUseRandom>
+              <AnomalyUseTrends>false</AnomalyUseTrends>
+              <AnomalyUseConstant>false</AnomalyUseConstant>
+              <AnomalyUseSequencial>false</AnomalyUseSequencial>
+              <AnomalyUseFunction>false</AnomalyUseFunction>
+            </BaseAtomClss>
+          </LstLocalAtoms>
+        </MainLocalCls>
+      </LstOfLocals>
+      <Config>
+        <Name>Habitacion</Name>
+        <MustRun>true</MustRun>
+        <From>1</From>
+        <To>1</To>
+        <IsRepActive>false</IsRepActive>
+        <RepFrom>1</RepFrom>
+        <RepTo>1</RepTo>
+      </Config>
+    </MainGroupCls>
+    <MainGroupCls>
+      <LstGroupAtoms />
+      <LstOfLocals>
+        <MainLocalCls>
+          <Patron>
+            <Patron>{
+"eventTypeName":"`PuertaEvent",
+"cod_empleado":  $#Rd.GL.Numero#$,
+"Nombre": $#Rd.LO.Nombres#$ ,
+"Apellidos": $#Rd.LO.Apellidos#$,
+"Fecha":  "$#Rd.GL.Fecha#$"
+"Tipo": $#Rd.LO.Lst#$
+}
+</Patron>
+          </Patron>
+          <Name>Connector 1</Name>
+          <Connector xsi:type="ConnRabbitMQ">
+            <ConnectionParam xsi:type="ConnRabbitMQ_Param">
+              <AsyncMode>false</AsyncMode>
+              <KeepConnected>false</KeepConnected>
+              <KndOfConnector>RabbitMQ</KndOfConnector>
+              <Host>
+                <Patron>localhost</Patron>
+              </Host>
+              <Queue>
+                <Patron>Mensajes</Patron>
+              </Queue>
+              <User>
+                <Patron>guest</Patron>
+              </User>
+              <Password>
+                <Patron>guest</Patron>
+              </Password>
+              <Exchange>
+                <Patron />
+              </Exchange>
+              <RoutingKey>
+                <Patron>Mensajes</Patron>
+              </RoutingKey>
+              <Port>5672</Port>
+              <Durable>true</Durable>
+              <Exclusive>false</Exclusive>
+              <Autodelete>false</Autodelete>
+            </ConnectionParam>
+            <MustRun>true</MustRun>
+          </Connector>
+          <LstLocalAtoms>
+            <BaseAtomClss xsi:type="AtomRndLstCls">
+              <Identificator>Tipo</Identificator>
+              <KindOfAtom>rdLocal</KindOfAtom>
+              <TypeOfAtom>eAtomLists</TypeOfAtom>
+              <AnomalyAllow>false</AnomalyAllow>
+              <AnomalyFrom>1</AnomalyFrom>
+              <AnomalyTo>1</AnomalyTo>
+              <AnomalyType>eMakeAndBack</AnomalyType>
+              <AnomalyTypeKeepTime_From>1</AnomalyTypeKeepTime_From>
+              <AnomalyTypeKeepTime_To>1</AnomalyTypeKeepTime_To>
+              <NumOfComplementariesValues>0</NumOfComplementariesValues>
+              <LstOfValues>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Entrada</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Salida</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+              </LstOfValues>
+              <WayOfWork>Random</WayOfWork>
+              <Step>1</Step>
+              <Goback>false</Goback>
+              <IgnoreRest>false</IgnoreRest>
+              <StartIn>-1</StartIn>
+              <ConstantMode>Random</ConstantMode>
+              <AnomalyUseRandom>true</AnomalyUseRandom>
+              <AnomalyUseSequential>true</AnomalyUseSequential>
+              <AnomalyUseConstant>true</AnomalyUseConstant>
+              <Ascending>true</Ascending>
+              <AnomalyAction>0</AnomalyAction>
+            </BaseAtomClss>
+            <BaseAtomClss xsi:type="AtomRndLstCls">
+              <Identificator>Nombres</Identificator>
+              <KindOfAtom>rdLocal</KindOfAtom>
+              <TypeOfAtom>eAtomLists</TypeOfAtom>
+              <AnomalyAllow>false</AnomalyAllow>
+              <AnomalyFrom>1</AnomalyFrom>
+              <AnomalyTo>1</AnomalyTo>
+              <AnomalyType>eMakeAndBack</AnomalyType>
+              <AnomalyTypeKeepTime_From>1</AnomalyTypeKeepTime_From>
+              <AnomalyTypeKeepTime_To>1</AnomalyTypeKeepTime_To>
+              <NumOfComplementariesValues>0</NumOfComplementariesValues>
+              <LstOfValues>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Juan</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Alberto</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Ana</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Alex</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Lucia</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Paco</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Pepe</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Guadalupe</Value>
+                  <Weight>1</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Antonio</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Maria</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Marcos</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Miguel</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Fran</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Rafa</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Isabel</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Alberto</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+              </LstOfValues>
+              <WayOfWork>Random</WayOfWork>
+              <Step>1</Step>
+              <Goback>false</Goback>
+              <IgnoreRest>false</IgnoreRest>
+              <StartIn>-1</StartIn>
+              <ConstantMode>Random</ConstantMode>
+              <AnomalyUseRandom>true</AnomalyUseRandom>
+              <AnomalyUseSequential>true</AnomalyUseSequential>
+              <AnomalyUseConstant>true</AnomalyUseConstant>
+              <Ascending>true</Ascending>
+              <AnomalyAction>0</AnomalyAction>
+            </BaseAtomClss>
+            <BaseAtomClss xsi:type="AtomRndLstCls">
+              <Identificator>Apellidos</Identificator>
+              <KindOfAtom>rdLocal</KindOfAtom>
+              <TypeOfAtom>eAtomLists</TypeOfAtom>
+              <AnomalyAllow>false</AnomalyAllow>
+              <AnomalyFrom>1</AnomalyFrom>
+              <AnomalyTo>1</AnomalyTo>
+              <AnomalyType>eMakeAndBack</AnomalyType>
+              <AnomalyTypeKeepTime_From>1</AnomalyTypeKeepTime_From>
+              <AnomalyTypeKeepTime_To>1</AnomalyTypeKeepTime_To>
+              <NumOfComplementariesValues>0</NumOfComplementariesValues>
+              <LstOfValues>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Ortiz</Value>
+                  <Weight>1</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Garcia</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Sanchez</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Lopez</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Gomez</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Guisado</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Salas</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Ramos</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Villa</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Puyol</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Cuevas</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Iniesta</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Hernandez</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Jimenez</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Gimenez</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Ruiz</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+              </LstOfValues>
+              <WayOfWork>Random</WayOfWork>
+              <Step>1</Step>
+              <Goback>false</Goback>
+              <IgnoreRest>false</IgnoreRest>
+              <StartIn>-1</StartIn>
+              <ConstantMode>Random</ConstantMode>
+              <AnomalyUseRandom>true</AnomalyUseRandom>
+              <AnomalyUseSequential>true</AnomalyUseSequential>
+              <AnomalyUseConstant>true</AnomalyUseConstant>
+              <Ascending>true</Ascending>
+              <AnomalyAction>0</AnomalyAction>
+            </BaseAtomClss>
+          </LstLocalAtoms>
+        </MainLocalCls>
+      </LstOfLocals>
+      <Config>
+        <Name>Puerta</Name>
+        <MustRun>false</MustRun>
+        <From>1</From>
+        <To>1</To>
+        <IsRepActive>false</IsRepActive>
+        <RepFrom>1</RepFrom>
+        <RepTo>1</RepTo>
+      </Config>
+    </MainGroupCls>
+    <MainGroupCls>
+      <LstGroupAtoms />
+      <LstOfLocals>
+        <MainLocalCls>
+          <Patron>
+            <Patron>{
+"eventTypeName":"OrdenadorEvent",
+“cod_ordenador”: $#Rd.GL.Numero#$,
+“cod_sala”: $#Rd.GL.Numero#$ ,
+“status”: $#Rd.LO.Estatus#$
+}
+</Patron>
+          </Patron>
+          <Name>Connector 1</Name>
+          <Connector xsi:type="ConnRabbitMQ">
+            <ConnectionParam xsi:type="ConnRabbitMQ_Param">
+              <AsyncMode>false</AsyncMode>
+              <KeepConnected>false</KeepConnected>
+              <KndOfConnector>RabbitMQ</KndOfConnector>
+              <Host>
+                <Patron>localhost</Patron>
+              </Host>
+              <Queue>
+                <Patron>Mensajes</Patron>
+              </Queue>
+              <User>
+                <Patron>guest</Patron>
+              </User>
+              <Password>
+                <Patron>guest</Patron>
+              </Password>
+              <Exchange>
+                <Patron />
+              </Exchange>
+              <RoutingKey>
+                <Patron>Mensajes</Patron>
+              </RoutingKey>
+              <Port>5672</Port>
+              <Durable>true</Durable>
+              <Exclusive>false</Exclusive>
+              <Autodelete>false</Autodelete>
+            </ConnectionParam>
+            <MustRun>true</MustRun>
+          </Connector>
+          <LstLocalAtoms>
+            <BaseAtomClss xsi:type="AtomRndLstCls">
+              <Identificator>Estatus</Identificator>
+              <KindOfAtom>rdLocal</KindOfAtom>
+              <TypeOfAtom>eAtomLists</TypeOfAtom>
+              <AnomalyAllow>false</AnomalyAllow>
+              <AnomalyFrom>1</AnomalyFrom>
+              <AnomalyTo>1</AnomalyTo>
+              <AnomalyType>eMakeAndBack</AnomalyType>
+              <AnomalyTypeKeepTime_From>1</AnomalyTypeKeepTime_From>
+              <AnomalyTypeKeepTime_To>1</AnomalyTypeKeepTime_To>
+              <NumOfComplementariesValues>0</NumOfComplementariesValues>
+              <LstOfValues>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Averia</Value>
+                  <Weight>30</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Encendido</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+                <MicroListCls>
+                  <complementaryValues />
+                  <Value>Apagado</Value>
+                  <Weight>100</Weight>
+                </MicroListCls>
+              </LstOfValues>
+              <WayOfWork>Random</WayOfWork>
+              <Step>1</Step>
+              <Goback>false</Goback>
+              <IgnoreRest>false</IgnoreRest>
+              <StartIn>-1</StartIn>
+              <ConstantMode>Random</ConstantMode>
+              <AnomalyUseRandom>true</AnomalyUseRandom>
+              <AnomalyUseSequential>true</AnomalyUseSequential>
+              <AnomalyUseConstant>true</AnomalyUseConstant>
+              <Ascending>true</Ascending>
+              <AnomalyAction>0</AnomalyAction>
+            </BaseAtomClss>
+          </LstLocalAtoms>
+        </MainLocalCls>
+      </LstOfLocals>
+      <Config>
+        <Name>Ordenador</Name>
+        <MustRun>false</MustRun>
+        <From>1</From>
+        <To>1</To>
+        <IsRepActive>false</IsRepActive>
+        <RepFrom>1</RepFrom>
+        <RepTo>1</RepTo>
+      </Config>
+    </MainGroupCls>
+    <MainGroupCls>
+      <LstGroupAtoms />
+      <LstOfLocals>
+        <MainLocalCls>
+          <Patron>
+            <Patron />
+          </Patron>
+          <Name>Connector 1</Name>
+          <Connector xsi:type="ConnTestSpeed">
+            <ConnectionParam xsi:type="ConnTestSpeed_Param">
+              <AsyncMode>false</AsyncMode>
+              <KeepConnected>false</KeepConnected>
+              <KndOfConnector>TestSpeed</KndOfConnector>
+            </ConnectionParam>
+            <MustRun>true</MustRun>
+          </Connector>
+          <LstLocalAtoms />
+        </MainLocalCls>
+      </LstOfLocals>
+      <Config>
+        <Name>Producto</Name>
+        <MustRun>false</MustRun>
+        <From>1</From>
+        <To>1</To>
+        <IsRepActive>false</IsRepActive>
+        <RepFrom>1</RepFrom>
+        <RepTo>1</RepTo>
+      </Config>
+    </MainGroupCls>
+  </LstMainGroups>
+</MainGlobalCls>

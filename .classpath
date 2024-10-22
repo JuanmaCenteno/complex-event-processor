@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="con" path="MULE_RUNTIME/org.mule.tooling.server.3.9.0"/>
+	<classpathentry kind="src" path="src/main/app"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="src" path="src/main/api"/>
+	<classpathentry kind="src" path="src/main/wsdl"/>
+	<classpathentry kind="src" path="src/test/munit"/>
+	<classpathentry exported="true" kind="con" path="MULE_LIB/AMQP-0-9/mule-transport-amqp-contribution"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/antlr4-runtime-4.9.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/commons-compiler-3.1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/esper-common-8.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/esper-common-avro-8.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/esper-common-xmlxsd-8.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/esper-compiler-8.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/esperio-amqp-8.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/esperio-csv-8.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/esperio-db-8.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/esperio-http-8.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/esperio-kafka-8.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/esperio-socket-8.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/esperio-springjms-8.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/esper-runtime-8.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/janino-3.1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/mysql-connector-java-8.0.28.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/slf4j-api-1.7.26.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Juanma/Desktop/UCA/ISI/PracticasAnypoint/isi/lib/slf4j-log4j12-1.7.26.jar"/>
+	<classpathentry exported="true" kind="con" path="MULE_LIB/AMQPS-0-9/mule-transport-amqp-contribution"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

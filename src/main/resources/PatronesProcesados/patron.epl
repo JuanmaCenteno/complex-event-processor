@@ -1,0 +1,18 @@
+insert into alertaPuerta
+SELECT pu1.cod_empleado as empleado, pu1.Nombre as nombre, pu1.Apellidos as apellidos, pu1.Fecha as fecha, pu1.Tipo as tipo
+FROM PATTERN [every pu1=PuertaEvent];
+
+SELECT * FROM alertaPuerta;
+
+insert into alertaOrdenador
+SELECT o1.cod_ordenador as cod_ordenador, o1.cod_sala as cod_sala, o1.status as status
+FROM PATTERN [every o1=OrdenadorEvent(o1.status = 'Averia')];
+
+SELECT * FROM alertaOrdenador;
+
+
+insert into alertaProducto
+SELECT p1.cod_producto as cod_producto, p1.ubicacion as ubicacion, p1.stock_actual as actual, p1.stock_minimo as minimo
+FROM PATTERN [every p1=ProductoEvent(p1.stock_actual < p1.stock_minimo)];
+
+SELECT * FROM alertaProducto;

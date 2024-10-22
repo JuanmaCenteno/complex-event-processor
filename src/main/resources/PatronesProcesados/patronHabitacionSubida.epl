@@ -1,0 +1,5 @@
+insert into alertaHabitacion
+SELECT h1.cod_sala as cod_sala, h1.num_empleados as emp1, h2.num_empleados as emp2, h2.temperatura as temp, 'Subida' as tipo, h1.fecha_sistema as fecha
+FROM PATTERN [every h1=HabitacionEvent -> h2=HabitacionEvent((h2.num_empleados - h1.num_empleados) <= 10 AND h1.cod_sala = h2.cod_sala) where timer:within (5 minutes)];
+
+SELECT cod_sala, temp, tipo FROM alertaHabitacion;
